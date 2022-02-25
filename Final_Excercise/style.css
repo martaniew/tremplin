@@ -3,15 +3,15 @@ P {
 }
 
 main {
-    margin: 0 auto;
-    width: 100vw;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-image: url(backgrounPhoto.jpg);
-    background-size: cover;
-    position: absolute;
-    z-index: 0;
+  margin: 0 auto;
+  width: 100vw;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(backgrounPhoto.jpg);
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
 }
 body {
   width: 100%;
@@ -19,14 +19,13 @@ body {
 }
 
 a {
-text-decoration: none;
-color: #ebd9ff;
- }
+  text-decoration: none;
+  color: #ebd9ff;
+}
 
- a:hover {
-    color: #970d64;
-  }
-
+a:hover {
+  color: #970d64;
+}
 
 header {
   margin: 0;
@@ -84,11 +83,11 @@ input {
   height: 2em;
   margin: 5px auto;
 }
-p, h2 {
+p,
+h2 {
   color: white;
   margin: 0 auto;
 }
-
 
 button {
   width: fit-content;

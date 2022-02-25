@@ -1,7 +1,5 @@
 // Function searching all the occucence of an given character in a string
 
-
-
 function searchZ(phrase) {
   let character = "z";
   //changing all character of strings to lower case
@@ -16,5 +14,3 @@ function searchZ(phrase) {
     console.log(`il y a ${count} ${character}`);
   }
 }
-
-

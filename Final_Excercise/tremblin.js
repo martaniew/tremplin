@@ -8,7 +8,7 @@ function bigram(phrase) {
   let wordsArray = phrase.split(" ");
   let newPhrase = "";
   if (wordsArray.length < 3) {
-    return "please enter at least three words"
+    return "please enter at least three words";
   }
   // as long as there are min. 2 elements in the array display three consecutive elements incrementing position of starting element by one with every iteration
   for (
@@ -57,8 +57,8 @@ function searchZ(phrase) {
 function onClickHandler(e) {
   //prevent sending form
   e.preventDefault();
-  
-  // defining variables 
+
+  // defining variables
   let paragraphe = "";
   let phrase = "";
   let textToDisplay = "";
@@ -66,7 +66,7 @@ function onClickHandler(e) {
   //get id of clicked button
   let id = this.id;
 
-  // evaluate id to perform dedicated action and return text to diplay 
+  // evaluate id to perform dedicated action and return text to diplay
   switch (id) {
     case "zSearchButton":
       phrase = document.querySelector("#zSearchInput").value;
@@ -87,16 +87,16 @@ function onClickHandler(e) {
   // get parent element (form) of clicked button
   let contaneir = this.parentNode;
 
-  //create paragraphe <p> 
+  //create paragraphe <p>
   paragraphe = document.createElement("p");
 
-  //remove existing paragraphe in case of retaping phrase 
+  //remove existing paragraphe in case of retaping phrase
   contaneir.removeChild(contaneir.lastChild);
 
-  //add text tranformed with the add of the functions to paragraphe 
+  //add text tranformed with the add of the functions to paragraphe
   paragraphe.textContent = textToDisplay;
 
-  // attach paragpare as a last child of form container 
+  // attach paragpare as a last child of form container
   contaneir.appendChild(paragraphe);
 }
 
