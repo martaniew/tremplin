@@ -1,0 +1,100 @@
+P {
+  align-self: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 100vw;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(backgrounPhoto.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+
+a {
+text-decoration: none;
+color: #ebd9ff;
+ }
+
+ a:hover {
+    color: #970d64;
+  }
+
+
+header {
+  margin: 0;
+  width: 100vw;
+  background: linear-gradient(45deg, #f10008, #0d21f5);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.form-container {
+  padding: 5%;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+li {
+  display: flex;
+  margin: 2%;
+}
+
+img {
+  width: 5%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  margin: 10px;
+  padding: 3em;
+  border-radius: 5px;
+  margin: 0 auto 5% auto;
+  max-width: 80%;
+}
+
+input {
+  width: 80%;
+  height: 2em;
+  margin: 5px auto;
+}
+p, h2 {
+  color: white;
+  margin: 0 auto;
+}
+
+
+button {
+  width: fit-content;
+  margin: 3% auto;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 1em 2em;
+}
